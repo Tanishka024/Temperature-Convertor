@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:
+        Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 50px 100px;
+    background: linear-gradient(to left,#e7e766,#f5c262,#e64a4a);
+    background-image: url('https://png.pngtree.com/background/20231030/original/pngtree-cold-winter-concept-3d-rendering-of-low-temperature-on-blue-background-picture-image_5792501.jpg');
+
+}
+.main-box{
+    display: flex;
+    text-align: center;
+    background: linear-gradient(to right,
+            #7ee8e8, #d6a3ee, #f6969e); opacity: 0.8;
+            outline: 4px solid #e64a4a;
+            outline-offset: -4px ;
+    padding:50px;
+    font-weight: bold;
+}
+label{
+    font-size: 22px;
+
+}
+h1{
+    text-align: center;
+}
+.col{
+    display: inline-block;
+
+}
+input{
+    padding:5px 10px;
+    margin:10px;
+    font-size: 10px;
+    font-weight: bold;
+    width:250px;
+    text-align: center;
+    border-image:   linear-gradient(to right, rgb(114, 78, 78) 25%, rgb(204, 204, 102) 25%, rgb(228, 228, 42) 50%,rgb(209, 65, 65) 50%, rgb(222, 75, 75) 75%, rgb(16, 137, 137) 75%) 5;
+
+}
